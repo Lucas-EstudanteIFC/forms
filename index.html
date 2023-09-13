@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Formulário para Professor</title>
+  <style>
+    form {
+      width: 30%;
+      margin: 8rem auto;
+    }
+
+
+    .area {
+      background-color: gray;
+      border: 1px solid black;
+      border-radius: 1em;
+      padding: 1rem;
+      display: block;
+    }
+
+    label {
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <form action="">
+
+    <div class="area">
+      <label for="name">Nome:</label>
+      <input type="text" id="name">
+    </div>
+
+    <div class="area">
+      <label for="data">Data de Nascimento: </label>
+      <input type="date" id="data">
+    </div>
+
+    <div class="area">
+      <label for="city">Cidade natal:</label>
+      <input type="text" id="city">
+    </div>
+
+    <div class="area">
+      <label for="height">Altura</label>
+      <input type="text" id="height">
+
+      <label for="weight">Peso</label>
+      <input type="text" id="weight">
+    </div>
+
+    <div class="area">
+      <label for="cpf">CPF</label>
+      <input type="text" id="cpf">
+    </div>
+
+    <div class="area">
+      <h3>Nível de ensino</h3>
+      <input type="radio" name="nivel" id="ensF">
+      <label for="ensF">Ensino Fundamental</label>
+      <p></p>
+      <input type="radio" name="nivel" id="tec">
+      <label for="tec">Ensino Técnico</label>
+      <p></p>
+      <input type="radio" name="nivel" id="facul">
+      <label for="facul">Faculdade</label>
+      <p></p>
+      <input type="radio" name="nivel" id="mstr">
+      <label for="mstr">Mestrado</label>
+      <p></p>
+      <input type="radio" name="nivel" id="doc">
+      <label for="doc">Doutorado</label>
+      <p></p>
+      <input type="radio" name="nivel" id="pos-doc">
+      <label for="pos-doc">Pós-doutorado</label>
+    </div>
+
+    <div class="area">
+      <label for="cllp">Telefone:</label>
+      <input type="text" id="cllp">
+      <p></p>
+      <label for="alt">Telefone Alternativo:</label>
+      <input type="tel" name="" id="alt">
+    </div>
+
+    <div class="area">
+      <label for="">Email:</label>
+      <input type="email" id="email">
+    </div>
+
+    <div class="area">
+      <label for="">Senha:</label>
+      <input type="password" id="pssw">
+    </div>
+
+    <div class="area">
+      <label for="imagem">Foto</label>
+      <input type="image" id="imagem">
+    </div>
+
+  </form>
+</body>
+
+</html>
